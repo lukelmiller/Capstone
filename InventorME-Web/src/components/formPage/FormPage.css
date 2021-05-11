@@ -1,0 +1,238 @@
+@import "../../util/colors.css";
+
+.add-edit-container {
+    position: absolute;
+    border: solid;
+    z-index: 5;
+    border-color: var(--theme);
+    border-radius: 3em;
+    border-width: 0.3em;
+    width: 50%;
+    height: 80%;
+    margin-left: 23%;
+    background-color: var(--background);
+}
+
+.enter-manually {
+    cursor: pointer;
+    color: var(--buttonText);
+    background-color: var(--button);
+    border-radius: 0.4em;
+    border-width: 0;
+    margin-left: 20%;
+    width: inherit;
+    font-size: 1.3em;
+    position: relative;
+    width: 9em;
+}
+
+.searchCode-box {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0.4em;
+    padding-left: 0.5em;
+    outline: none;
+    width: inherit;
+    margin-left: 10%;
+    font-size: 1.2em;
+    position: relative;
+}
+
+.item-image-container {
+    position: relative;
+    transition: 0.2s;
+    margin-left: 24em;
+    padding-top: 1.5em;
+    height: 10em;
+}
+
+.item-upload {
+    position: absolute;
+    height: 2.5em;
+    cursor: pointer;
+    z-index: 1;
+    top: 9.5em;
+    left: 8.5em; 
+}
+
+.orText {
+    margin-left: 33%;
+    font-size: 1.3em;
+    color: var(--label);
+}
+
+.react-date-picker, .react-date-picker *, .react-date-picker *:before, .react-date-picker *:after {
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.save-button {
+    border-radius: 0.4em;
+    background-color: var(--button);
+    color: var(--buttonText);
+    margin-left: 24%;
+    cursor: pointer;
+    font-size: 1.2em;
+    width: 4em;
+    height: 2em;
+    border-width: 0;
+}
+
+.cancel-button {
+    border-radius: 0.4em;
+    border-width: 0;
+    background-color: var(--button);
+    color: var(--buttonText);
+    margin-left: 6em;
+    cursor: pointer;
+    font-size: 1.2em;
+    width: 4em;
+    height: 2em;
+}
+
+.searchCode-button {
+    border-radius: 0.4em;
+    background-color: var(--button);
+    font-size: 1.1em;
+    color: var(--buttonText);
+    margin-left: 2em;
+    border-width: 0;
+    cursor: pointer;
+}
+
+.form-header {
+    display: inline-flex;
+    border-bottom: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-style: solid; 
+    width: 100.1%;
+    margin-top: -0.1%;
+    color: var(--title);
+    background-color: var(--theme);
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+}
+
+.loading-container {
+    position: absolute;
+    z-index: 1;
+    background-color: var(--background);
+    opacity: 60%;
+    height: 100%;
+    width: 100%;
+    border-radius: 3em;
+}
+
+.form-load-symbol {
+    left: 48%;
+    top: 45%;
+    z-index: 2;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid var(--accent);
+    border-left-color: var(--theme);
+    animation: rotate-s-loader 1s linear infinite;
+}
+
+.form-container {
+    margin-left: 2%;
+    width: 98%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.form-container h2 {
+    color: var(--label);
+    font-size: 1.2em;
+}
+
+.input-notes {
+    width: 25em;
+    height: 10em;
+    overflow-wrap: break-word;
+    outline: none;
+}
+
+.input-box {
+    margin-bottom: 1em;
+    width: 38em;
+    font-size: 1em;
+}
+
+.input-box2 {
+    margin-bottom: 1em;
+    width: 16em;
+    font-size: 1em;
+}
+
+.input-box3 {
+    margin-bottom: 1em;
+    width: 11em;
+    font-size: 1em;
+}
+
+.input-box4 {
+    margin-bottom: 1em;
+    width: 25em;
+    font-size: 1em;
+}
+
+.input-tags-box {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    margin-bottom: 1em;
+    font-size: 1em;
+}
+
+.input-tag {
+    background: var(--background);
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.input-tag-tags {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.input-tag-tags li {
+    align-items: center;
+    background: var(--button);
+    border-radius: 1em;
+    color: var(--buttonText);
+    display: flex;
+    font-weight: 500;
+    list-style: none;
+    margin-bottom: 0.5em;
+    margin-right: 1em;
+    padding: 0.3em 0.8em;
+}
+  
+.input-tag-tags li button {
+    align-items: center;
+    appearance: none;
+    background: var(--background);
+    border: none;
+    border-radius: 50%;
+    color: var(--label);
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 0.7em;
+    height: 1.2em;
+    justify-content: center;
+    line-height: 0;
+    margin-left: 1em;
+    padding: 0;
+    width: 15px;
+}

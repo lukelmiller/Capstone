@@ -1,0 +1,46 @@
+@import "../util/colors.css";
+#title {
+    margin: margin-top;
+    font-family: arial, sans-serif;
+    text-align: center;
+    color: var(--label);
+  }
+ 
+  
+  
+  #Archived_Items {
+    margin: auto;
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    color: var(--tableText);
+    border: 2px solid var(--text);
+    width: 70%;
+    background-color: var(--row);
+    margin-bottom: 10%;
+    
+  }
+  
+  #Archived_Items td, #Archived_Items th {
+    border: 1px solid var(--lines);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+    
+    
+  }
+  
+  #Archived_Items tr:nth-child(even){background-color: var(--rowAccent);}
+  
+  #Archived_Items tr:hover {
+    color: var(--hoverText);
+    background-color: var(--hover);}
+  
+  #Archived_Items th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: var(--header);
+    color: var(--title);
+  }

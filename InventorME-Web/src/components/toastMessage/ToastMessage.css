@@ -1,0 +1,29 @@
+@import "../../util/colors.css";
+
+.toast {
+    background: var(--theme);
+    transition: 0.2s;
+    overflow: hidden;
+    top: 6em;
+    right: 2em;
+    border-radius: 1em;
+    z-index: 3;
+    position: fixed;
+}
+
+.toast-message {
+    color: white;
+    transition: 0.4s;
+    font-weight: 600;
+    width: 90%;
+    height: 70%;
+    padding-top: 2em;
+    padding-left: 0.5em;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    margin: 4%;
+    font-size: 110%;
+    background-color: var(--theme);
+    position: relative;
+}

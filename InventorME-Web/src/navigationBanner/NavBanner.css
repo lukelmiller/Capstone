@@ -1,0 +1,173 @@
+@import "../util/colors.css";
+
+.NavBanner {
+    display: inline-flex;
+    width: 100%;
+    height: 4em;
+    border-bottom: 0.1em solid var(--theme);
+    background-color: var(--theme);
+}
+
+.title {
+    color: var(--title);
+    font-weight: bold;
+    margin-left: 30%;
+    margin-right: auto;
+    display: inline-flex;
+    font-size: 1.5em;
+}
+
+.menu {
+    margin-right: auto;
+    margin-top: auto;
+    margin-left: 4%;
+    margin-bottom: auto;
+    cursor: pointer;
+}
+
+.menu-icon {
+    height: 2.5em;
+    width: 2.5em;
+}
+
+.add-item-button {
+    color: #0e7e92;
+    background-color: white;
+    width: 6em;
+    height: 1.5em;
+    padding-top: 0.4em;
+    border-radius: 8px;
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bolder;
+}
+.icon{
+    color: white;
+    width: 5%;
+
+  }
+.profile  {
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: 6%;
+    margin-bottom: auto;
+    display: inline-flex;
+    color: var(--title);
+    cursor: pointer;
+}
+
+.search-icon  {
+    margin-left: 7%;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    display: inline-flex;
+    color: white;
+    width: 5%;
+    text-decoration:  'none';
+    cursor: pointer;
+}
+
+.input-search {
+    width: 30%;
+    font-size: 1.3em;
+    border-radius: 0.3em;
+    border-color: gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+
+.search-overlay {
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    transition: 3.2s;
+    text-align: center;
+    border-top: 2px solid var(--background);
+}
+
+.firstName-profile {
+    padding-left: 1em;
+    font-weight: normal;
+}
+
+.inventor-logo {
+    height: 2em;
+    width: 2em;
+    padding-left: 0.5em;
+    margin-top: 3.4%;
+}
+
+.inventor-title {
+    margin: auto;
+}
+
+.side-menu {
+    margin: auto;
+    background-color: var(--theme);
+    padding-top: 6em;
+    padding-left: 2em;
+    padding-right: 2em;
+    height: 100vh;
+}
+
+.side-menu h1:hover, .side-menu h1:focus {
+    outline-color: var(--title);
+    outline-width: 0.5px;
+    outline-style: double;
+}
+
+.side-menu div {
+    padding-top: 2em;
+}
+
+.menu-text {
+    color: var(--title);
+    font-size: 1.1em;
+    padding: 1em;
+}
+
+.overlay {
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    margin-right: 3.5%;
+    background-color: var(--theme);
+    overflow: hidden;
+    transition: 0.2s;
+    border-top: 2px solid var(--background);
+}
+
+.overlay div {
+    padding-top: 1em;
+    width: 6em;
+    margin: auto;
+}
+
+.overlay p {
+    color: var(--title);
+    background-color: var(--theme);
+    font-size: 1.2em;
+    text-align: center;
+    padding: 0.3em;
+    margin: auto;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay p:hover, .overlay p:focus {
+    outline-color: var(--title);
+    outline-width: 0.5px;
+    outline-style: double;
+}
+
+
+.overlay-menu__wrap {
+    overflow: hidden !important;
+}
+
+.overlay-menu__overlay {
+    background: none !important;
+}

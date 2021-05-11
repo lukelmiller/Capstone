@@ -1,0 +1,125 @@
+@import "../../util/colors.css";
+
+.archive-button {
+    border-radius: 8px;
+    border-color: var(--theme);
+    background-color: var(--button);
+    color: var(--buttonText);
+    margin-left: 6em;
+    cursor: pointer;
+    font-size: 1.2em;
+    width: 4.5em;
+    height: 2em;
+}
+
+.delete-button {
+    border-radius: 8px;
+    border-color: var(--theme);
+    background-color: var(--button);
+    color: var(--buttonText);
+    margin-left: 6em;
+    cursor: pointer;
+    font-size: 1.2em;
+    width: 5.5em;
+    height: 2em;
+}
+
+.unarchive-button {
+    border-radius: 8px;
+    border-color: var(--theme);
+    background-color: var(--button);
+    color: var(--buttonText);
+    margin-left: 9em;
+    cursor: pointer;
+    font-size: 1.2em;
+    width: 5.5em;
+    height: 2em;
+}
+
+.check-box {
+    border: 0.3em;
+    border-radius: 2.5em;
+    border-style: solid;
+    width: 40%;
+    height: 20%;
+    border-color: var(--theme);
+    background-color: var(--background);
+    color: var(--theme);
+    position: absolute;
+    margin-top: 19em;
+    margin-left: 26%;
+}
+
+.check-title {
+    color: var(--label);
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.yes-button {
+    border-radius: 8px;
+    border-color: var(--theme);
+    background-color: var(--button);
+    color: var(--buttonText);
+    cursor: pointer;
+    font-size: 1em;
+    width: 4.5em;
+    height: 2em;
+}
+
+.no-button {
+    border-radius: 8px;
+    border-color: var(--theme);
+    background-color: var(--button);
+    color: var(--buttonText);
+    margin-left: 2em;
+    cursor: pointer;
+    font-size: 1em;
+    width: 4.5em;
+    height: 2em;
+}
+
+.input-notes2 {
+    width: 25em;
+    height: 10em;
+    overflow-wrap: break-word;
+    outline: none;
+    color: var(--label);
+}
+
+.input-box21 {
+    margin-bottom: 1em;
+    width: 38em;
+    font-size: 1em;
+    color: var(--label);
+}
+
+.input-box22 {
+    margin-bottom: 1em;
+    width: 16em;
+    font-size: 1em;
+    color: var(--label);
+}
+
+.input-box32 {
+    margin-bottom: 1em;
+    width: 11em;
+    font-size: 1em;
+    color: var(--label);
+}
+
+.input-box42 {
+    margin-bottom: 1em;
+    width: 25em;
+    font-size: 1em;
+    color: var(--label);
+}
+
+.input-tag2 {
+    background: var(--background);
+    border: none;
+    display: flex;
+    color: var(--label);
+    flex-wrap: wrap;
+}
