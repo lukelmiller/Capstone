@@ -1,0 +1,109 @@
+@import "../../util/colors.css";
+.create-folder {
+    position: absolute;
+    top: 6em;
+    left: 29.6em;
+    padding: 0.8em;
+    font-size: 1.3em;
+    color: var(--text);
+    background-color: var(--background);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+#Folder-Title {
+    margin: margin-top;
+    font-family: arial, sans-serif;
+    text-align: center;
+  }
+
+  .Collapsible {
+    padding-bottom: 2em;
+    width: 80%;
+    color: var(--title);
+  }
+ 
+  .Collapsible__trigger{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    background-color: var(--folder);
+    color: var(--title);
+    border-collapse: collapse;
+    cursor: pointer;
+    border: 0px solid var(--title);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: block;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    
+    /* margin-left: 227px;
+    margin-right: 227px;
+    margin-top: 12px; */
+  }
+  
+  .Collapsible__trigger.is-closed:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color:var(--folderText);
+    border: 3px solid var(--folder);
+    float: right;
+    /* margin-left: 1px;
+    margin-right: 1px; */
+  }
+  
+  .Collapsible__trigger.is-open:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    font-size: 13px;
+    color:  var(--label);
+    border: 3px solid var(--folder);
+    float: right;
+    /* margin-left: 1px;
+    margin-right: 1px; */
+  }
+  
+ 
+  
+  
+  #Folder_Items {
+    margin: auto;
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 2px solid var(--text);
+    width: 70%;
+    color: var(--text);
+    background-color: var(--row);
+    
+    
+  }
+  
+  #Folder_Items td, #Folder_Items th {
+    border: 1px solid var(--lines);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+    
+    
+    
+  }
+  
+  #Folder_Items tr:nth-child(even){background-color: var(--rowAccent);}
+  
+  #Folder_Items tr:hover {background-color: var(--hover)}
+  
+  #Folder_Items th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: var(--header);
+    color: var(--title);
+    
+  }

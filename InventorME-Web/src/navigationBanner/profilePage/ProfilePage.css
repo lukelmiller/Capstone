@@ -1,0 +1,360 @@
+@import "../../util/colors.css";
+.profile-container {
+    margin-top: 2%;
+    margin-bottom: 10%;
+    background-color: var(--background);
+}
+
+.profile-banner {
+    display: inline-flex;
+    width: 100%;
+}
+
+.profile-banner h2 {
+    color: var(--label);
+    padding-left: 39%;
+    margin-top: 1.2em;
+    font-size: 1.8em;
+}
+
+.profile-back {
+    height: 3.5em;
+    width: 3.5em;
+    padding-left: 3em;
+    padding-top: 2em;
+}
+
+.load-container {
+    position: absolute;
+    z-index: 2;
+    background-color: var(--background);
+    opacity: 40%;
+    height: 100vh;
+    width: 100%;
+}
+
+.load-symbol {
+    left: 50%;
+    top: 45%;
+    z-index: 1;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid var(--accent);
+    border-left-color: var(--theme);
+    animation: rotate-s-loader 1s linear infinite;
+}
+
+@keyframes rotate-s-loader {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+.profile-name { 
+    position: relative;
+    margin-left: 45%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: var(--label);
+ }
+
+.phone-number {
+    position: absolute;
+    top: 10em;
+    left: 3em;
+    font-size: 1.2em;
+    color: var(--label);
+}
+
+.phone-number-value {
+    position: relative;
+    font-size: 1em;
+    height: 1.5em;
+    color: var(--label);
+}
+
+.user-email {
+    position: absolute;
+    top: 15em;
+    left: 3em;
+    font-size: 1.2em;
+    color: var(--label);
+}
+
+.user-email-value {
+    position: relative;
+    height: 1.5em;
+    font-size: 1em; 
+    color: var(--label);
+}
+
+.info-container {
+    margin-top: 5%;
+    margin-left: 31%;
+}
+
+.update-profile {
+    position: relative;
+    margin-left: 37%;
+    margin-top: 5%;
+    padding: 0.8em;
+    font-size: 1.0em;
+    color: var(--buttonText);
+    background-color: var(--button);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.profile-image-container {
+    position: relative;
+    transition: 0.2s;
+    margin-left: 45%;
+    padding-top: 1.5%;
+}
+
+.file-upload {
+    position: absolute;
+    height: 3em;
+    cursor: pointer;
+    z-index: 1;
+    top: 7.5em;
+    left: 7.5em; 
+}
+
+.save-profile {
+    position: relative;
+    margin-left: 40%;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    font-size: 1.0em;
+    color: var(--buttonText);
+    background-color: var(--button);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.cancel-profile {
+    position: relative;
+    margin-left: 10%;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    font-size: 1.0em;
+    color: var(--buttonText);
+    background-color: var(--button);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.change-pass {
+    position: relative;
+    margin-left: 8%;
+    margin-top: 5%;
+    padding: 0.8em;
+    font-size: 1.0em;
+    color: var(--buttonText);
+    background-color: var(--button);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.check-box2 {
+    border: 0.3em;
+    border-radius: 2.5em;
+    border-style: solid;
+    width: 40%;
+    height: 50%;
+    z-index: 2;
+    border-color: var(--theme);
+    background-color: var(--background);
+    position: absolute;
+    margin-top: 9em;
+    margin-left: 28%;
+}
+
+.edit-newPass {
+    position: relative;
+    width: 40%;
+    margin-left: 30%;
+    font-size: 1.3em;
+    color: var(--label);
+}
+
+.edit-newPass-input {
+    position: relative;
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 11%;
+    font-size: 1.3em;
+}
+
+.edit-oldPass {
+    position: relative;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 10%;
+    font-size: 1.3em;
+    color: var(--label);
+}
+
+.edit-oldPass-input {
+    position: relative;
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 5%;
+    font-size: 1.3em;
+}
+
+.savePass-button {
+    border-radius: 8px;
+    border-color: var(--theme);
+    background-color: var(--button);
+    color: var(--buttonText);
+    cursor: pointer;
+    margin-left: 30%;
+    font-size: 1.2em;
+    width: 4.5em;
+    height: 2em;
+}
+
+.cancelPass-button {
+    border-radius: 8px;
+    border-color: var(--theme);
+    background-color: var(--button);
+    color: var(--buttonText);
+    margin-left: 16%;
+    cursor: pointer;
+    font-size: 1.2em;
+    width: 4.5em;
+    height: 2em;
+}
+
+.edit-first-input {
+    position: relative;
+    width: 45%;
+    font-size: 1.1em;
+}
+
+.edit-first {
+    position: relative;
+    width: 5em;
+    font-size: 1.3em;
+    color: var(--label);
+}
+
+.first-input {
+    position: relative;
+    height: 1.5em;
+    font-size: 1.2em;
+    border-color: var(--text);
+    border-width: 1.5px; 
+    border-color: var(--text);
+    color: var(--text);
+    background-color: var(--background);
+}
+
+.edit-last-input {
+    position: relative;
+    width: inherit;
+    font-size: 1.1em;
+}
+
+.edit-last {
+    position: relative;
+    width: inherit;
+    font-size: 1.3em;
+    color: var(--label);
+}
+
+.last-input {
+    position: relative;
+    height: 1.5em;
+    font-size: 1.2em;
+    border-color: var(--text);
+    border-width: 1.5px; 
+    border-color: var(--text);
+    color: var(--text);
+    background-color: var(--background);
+}
+
+.edit-email-input {
+    position: relative;
+    width: 70%;
+    margin-left: 31%;
+    font-size: 1.1em;
+}
+
+.edit-email {
+    position: relative;
+    font-size: 1.3em;
+    color: var(--label);
+}
+
+.edit-phone-input {
+    position: relative;
+    width: inherit;
+    font-size: 1.1em;
+}
+
+.edit-phone-input2 {
+    position: relative;
+    width: inherit;
+    font-size: 1.1em;
+    border-radius: 8px;
+    margin-left: 45%;
+    
+}
+
+.edit-phone {
+    position: relative;
+    width: inherit;
+    font-size: 1.3em;
+    color: var(--label);
+}
+
+.phone-input {
+    position: relative;
+    height: 1.5em;
+    font-size: 1.2em;
+    border-radius: 8px;
+    border-color: var(--text);
+    border-width: 1.5px; 
+    border-color: var(--text);
+    color: var(--text);
+    background-color: var(--background);
+}
+
+.special-label {
+    display: none;
+}
+
+.form-control {
+    outline: none;
+    font-size: 1.3em;
+    border-width: 1.5px; 
+    border-color: var(--text);
+    color: var(--text);
+    background-color: var(--background);
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}

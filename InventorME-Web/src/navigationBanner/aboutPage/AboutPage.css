@@ -1,0 +1,21 @@
+@import "../../util/colors.css";
+.home-title{
+    display:block;
+    width: 90%;
+    background-color:var(--background);
+    margin-left: 5%;
+    margin-top: 7%;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:400px;
+    height: 380px;
+}
+.primary{
+    color: var(--text);
+    font-size: 30px;
+    text-align: justify;
+}
