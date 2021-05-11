@@ -1,0 +1,131 @@
+@import "../util/colors.css";
+.loading-container-stats{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    opacity: 40%;
+    height: 100vh;
+    width: 100%;
+    
+    
+}
+
+.Circle1{
+    margin-left: 12%;
+    margin-top: 3em;
+}
+
+.Circle2{
+    margin-left: 8%;
+    margin-top: 3.5em;
+    
+}
+
+.Circle3{
+    margin-left: 8%;
+    margin-top: 3.5em;
+}
+
+.Circle4{
+    margin-left: 8%;
+    margin-top: 3.5em;
+}
+
+.Circle5{
+    margin-left: 12%;
+    margin-top: 7.5em;
+}
+
+.Circle6{
+    margin-left: 8%;
+    margin-top: 7.5em;
+}
+
+.Circle7{
+    margin-left: 8%;
+    margin-top: 7.5em;
+}
+
+.Circle8{
+    margin-left: 8%;
+    margin-top: 7.5em;
+}
+
+
+.Circle_1{
+    font-weight: bold;
+    position: relative;
+    margin-top: 1.7em;
+    margin-left: -22%;
+    font-size: 130%;
+    width: 152%;
+    color: var(--label);
+}
+
+.Circle_2{
+    font-weight: bold;
+    position: relative;
+    margin-top: 1.7em;
+    margin-left: 10%;
+    font-size: 130%;
+    color: var(--label);
+}
+
+.Circle_3{
+    font-weight: bold;
+    position: relative;
+    margin-top: 1.7em;
+    margin-left: -17.6%;
+    width: 152%;
+    font-size: 130%;
+    color: var(--label);
+}
+
+.Circle_4{
+    font-weight: bold;
+    position: relative;
+    margin-top: 1.7em;
+    margin-left: -23.2%;
+    width: 152%;
+    font-size: 130%;
+    color: var(--label);
+}
+
+.Circle_5{
+    font-weight: bold;
+    position: relative;
+    margin-top: 1.7em;
+    margin-left: -19%;
+    font-size: 130%;
+    width: 152%;
+    color: var(--label);
+}
+
+.Circle_6{
+    font-weight: bold;
+    position: relative;
+    margin-top: 1.7em;
+    margin-left: -20%;
+    font-size: 130%;
+    width: 152%;
+    color: var(--label);
+}
+
+.Circle_7{
+    font-weight: bold;
+    position: relative;
+    margin-top: 1.7em;
+    margin-left: -19%;
+    width: 152%;
+    font-size: 130%;
+    color: var(--label);
+}
+
+.Circle_8{
+    font-weight: bold;
+    position: relative;
+    margin-top: 1.7em;
+    margin-left: -10%;
+    width: 152%;
+    font-size: 130%;
+    color: var(--label);
+}
