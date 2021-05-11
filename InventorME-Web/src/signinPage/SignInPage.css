@@ -1,0 +1,121 @@
+@import "../util/colors.css";
+.signin-container {
+    width: 100%;
+}
+
+.signin-inventor-title {
+    display: inline-flex;
+    width: 100%;
+}
+.signin-inventor-title h2 {
+    color:  var(--label);
+    margin-left: 40%;
+    top: 1em;
+    font-size: 2.0em;
+}
+.password{
+    position: absolute;
+    outline: none;
+    top: 15em;
+    left: 2.4em;
+    width: 17em;
+    height: 1.6em;
+    border-radius: 8px;
+    border-color: var(--text);
+    background-color: var(--background);
+    color: var(--text);
+}
+.email{
+    position: absolute;
+    outline: none;
+    top: 8em;
+    left: 2.4em;
+    width: 17em;
+    height: 1.6em;
+    border-radius: 8px;
+    border-color: var(--text);
+    background-color: var(--background);
+    color: var(--text);
+}
+.lbox{
+    height : 37em;
+}
+.login-box {
+    position: relative;
+    margin-left: 34%;
+    top: 3.5em;
+    padding-bottom: 5em;
+    width: auto;
+    transition: 0.2s;
+}
+
+.loading-container-sign {
+    position: fixed;
+    z-index: 1;
+    background-color: var(--background);
+    opacity: 25%;
+    height: 100vh;
+    width: 100%;
+}
+
+.form-load-symbol-sign {
+    left: 43%;
+    top: 43%;
+    z-index: 1;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid var(--accent);
+    border-left-color: var(--theme);
+    animation: rotate-s-loader 1s linear infinite;
+}
+
+.login-account {
+    position: absolute;
+    top: 14em;
+    left: 1.6em;
+    padding: 0.8em;
+    font-size: 1.3em;
+    color: var(--buttonText);
+    background-color: var(--button);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.create-account {
+    position: absolute;
+    top: 24em;
+    left: 1.6em;
+    padding: 0.8em;
+    font-size: 1.3em;
+    color: var(--buttonText);
+    background-color: var(--button);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.or-message{
+    position: absolute;
+    top: 20em;
+    left: 1.6em;
+    font-size: 1.3em;
+    color: var(--label);
+}
+
+.Password{
+    position: absolute;
+    top: 6em;
+    left: 1.6em;
+    font-size: 1.3em;
+    color: var(--label);
+}
+.Email{
+    position: absolute;
+    top: 1.6em;
+    left: 1.6em;
+    font-size: 1.3em;
+    color: var(--label);
+}
