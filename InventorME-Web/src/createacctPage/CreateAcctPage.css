@@ -1,0 +1,138 @@
+@import "../util/colors.css";
+
+.createacct-inventor-title {
+    display: inline-flex;
+    width: 100em;
+}
+.createacct-inventor-title h2 {
+    position: absolute;
+    color: var(--label);
+    margin-left: 18em;
+    margin-top: 1em;
+    font-size: 2.0em;
+}
+.backwards {
+    position: absolute;
+    height: 3.5em;
+    width: 3.5em;
+    padding-left: 3em;
+    padding-top: 2em;
+    left: .5em;
+    background-color: var(--background);
+}
+.email2{
+    position: absolute;
+    top: 13em;
+    left: 30.4em;
+    width: 17em;
+    height: 1.6em;
+    color: var(--text);
+    border-radius: 8px;
+    background-color: var(--background);
+    
+    
+}
+
+
+.first{
+    position: absolute;
+    top: 19.7em;
+    left: 30.4em;
+    width: 17em;
+    height: 1.6em;
+    color: var(--text);
+    border-radius: 8px;
+    background-color: var(--background);
+}
+
+.last{
+    position: absolute;
+    top: 25.9em;
+    left: 30.4em;
+    width: 17em;
+    height: 1.6em;
+    color: var(--text);
+    border-radius: 8px;
+    background-color: var(--background);
+}
+.phone{
+    position: absolute;
+    top: 32.5em;
+    left: 30.4em;
+    width: 17em;
+    height: 1.6em;
+    color: var(--text);
+    border-radius: 8px;
+    background-color: var(--background);
+}
+.password2{
+    position: absolute;
+    top: 38.6em;
+    left: 30.4em;
+    width: 17em;
+    height: 1.6em;
+    color: var(--text);
+    border-radius: 8px;
+    background-color: var(--background);
+    
+}
+
+
+
+.Fname{
+    position: absolute;
+    top: 9.5em;
+    left: 19.6em;
+    font-size: 1.3em;
+    color: var(--label);
+}
+.Email2{
+    position: absolute;
+    top: 5em;
+    left: 19.6em;
+    font-size: 1.3em;
+    color: var(--label);
+}
+.Lname{
+    position: absolute;
+    top: 13.8em;
+    left: 19.6em;
+    font-size: 1.3em;
+    color: var(--label);
+}
+.Phone{
+    position: absolute;
+    top: 18em;
+    left: 19.6em;
+    font-size: 1.3em;
+    color: var(--label);
+}
+.Password2{
+    position: absolute;
+    top: 21.9em;
+    left: 19.6em;
+    font-size: 1.3em;
+    color: var(--label);
+}
+.goto-account {
+    position: absolute;
+    top: 30em;
+    left: 19.6em;
+    padding: 0.8em;
+    font-size: 1.3em;
+    color: var(--buttonText);
+    background-color: var(--button);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.calogo{
+    position: absolute;
+    left: 50em;
+    top: 11em;
+    padding-bottom: 0em;
+    transition: 0.2s;
+    width:400px;
+    height: 380px;
+}
